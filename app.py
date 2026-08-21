@@ -6,7 +6,7 @@ import numpy as np
 pipe = pickle.load(open('pipe.pkl','rb'))
 dataset = pickle.load(open('dataset.pkl','rb'))
 
-st.title("Laptop Price Predictor")
+st.title("Laptop Price Prediction")
 
 # brand
 company = st.selectbox('Brand',dataset['Company'].unique())
